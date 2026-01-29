@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buss pass application</title>
+</head>
+
+<body>
+    <center>
+        <img src="./images/telangana bus corporation.jpeg" width="800">
+        <fieldset style="width: 800px; border-radius: 10px ; border:1px solid black;">
+            <legend style="border-radius: 5px; background-color:blue; color:white"><b>Applicants Details</b></legend>
+            <form action="">
+                <table cellpadding="10">
+                    <tr>
+                        <td>
+                            <label for="name">Name<span style="color:red">*</span></label>
+                        </td>
+                        <td>
+                            <input type="text" id="name" name="name">
+                        </td>
+                        <td>
+                            <label for="fathername">Father's / Guardian's <br>Name<span
+                                    style="color:red">*</span></label>
+                        </td>
+                        <td>
+                            <input type="text" id="fathername" name="Father Name">
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+                            <label for="date">Date of Birth<span style="color:red">*</span></label>
+                        </td>
+                        <td>
+                            <input type="date" id="date">
+                        </td>
+
+                        <td>
+                            <label for="">Gender<span style="color:red">*</span></label>
+                        </td>
+                        <td>
+                            <label for="male">Male</label>
+                            <input type="radio" id="male" name="gender" value="Male">
+
+                            <label for="female">Female:</label>
+                            <input type="radio" id="female" name="gender" value="Female">
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>
+                            <label for="age">Age:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="age">
+                        </td>
+
+                        <td>
+                            <label for="aadhar">Aadhaar No:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="aadhar" name="Aadhar" maxlength="12" minlength="12">
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+                            <label for="number">WhatsApp <br>No<span style="color:red">*</span></label>
+                        </td>
+                        <td>
+                            <input type="tel" id="number" name="Number">
+                        </td>
+
+                        <td>
+                            <label for="email">E-mail Id<span style="color:red">*</span></label>
+                        </td>
+                        <td>
+                            <input type="email" id="email" name="E-mail">
+                        </td>
+                    <tr></tr>
+                    <tr>
+                        <td>
+                            <label for="file">Photo<span style="color:red">*</span></label>
+                        </td>
+                        <td>
+                            <input type="file" id="file" name="Photo">
+                        </td>
+                        <td colspan="2"></td>
+                    </tr>
+
+                </table>
+
+        </fieldset><br>
+
+        <fieldset style="width: 800px; border-radius: 10px ; border:1px solid black;">
+            <legend style="border-radius: 5px; background-color:blue; color:white"><b>Residential Address Details</b>
+            </legend>
+
+            <table cellpadding="15" width="800">
+                <tr>
+                    <td>
+                        <label for="text">Applicant's Address<span style="color:red">*</span></label>
+                    </td>
+                    <td>
+                        <textarea rows="5" cols="25"></textarea>
+                    </td>
+                    <td>
+                        <label for="district">District<span style="color:red">*</span></label>
+                    </td>
+                    <td>
+                        <select>
+                            <option>HYDERABAD</option>
+                            <option>SIDDIPET</option>
+                            <option>KAMAREDDY</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mandal">Mandal<span style="color:red">*</span></label>
+                    </td>
+                    <td>
+                        <select>
+                            <option>HYDERABAD</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label>Village<span style="color:red">*</span></label>
+                    </td>
+                    <td>
+                        <select>
+                            <option>HYDERABAD</option>
+                            <option>SIDDIPET</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="text1">Pincode<span style="color:red">*</span></label>
+                    </td>
+                    <td>
+                        <input type="text" id="text1">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+
+        < <fieldset style="width: 800px; border-radius: 10px ; border:1px solid black;">
+            <legend style="border-radius: 5px; background-color:blue; color:white"><b>Pass Type Details</b> </legend>
+
+            <table cellpadding="10" width="800">
+                <tr>
+                    <td>
+                        <label>City<span style="color:red">*</span></label>
+                    </td>
+                    <td>
+                        <select style="width:80%;">
+                            <option>HYDERABAD</option>
+                        </select>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Pass Type<span style="color:red">*</span></label>
+                    </td>
+                    <td>
+                        <select style="width:80%;">
+                            <option>--select--</option>
+                            <option>GREATER PASS</option>
+                            <option>GENERAL ORDINARY ROUTE PASS MTLY</option>
+                            <option>GENERAL EXPRESS ROUTE PASS MTLY</option>
+                            <option>ORDINARY PASS</option>
+                            <option>METRO EXPRESS PASS</option>
+                            <option>METRO DELUXE PASS</option>
+                        </select>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>From Place District<span style="color:red">*</span></label>
+                    </td>
+                    <td>
+                        <select style="width:45%;">
+                            <option>--select--</option>
+                            <option>Uppal</option>
+                            <option>Ramanthapur</option>
+                            <option>koti</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label>To Place District<span style="color:red">*</span></label>
+                    </td>
+                    <td>
+                        <select style="width:100%;">
+                            <option>--select--</option>
+                            <option>Uppal</option>
+                            <option>koti</option>
+                            <option>Ramanthapur</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>From Place<span style="color:red">*</span></label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <label>To Place<span style="color:red">*</span></label>
+                    </td>
+                    <td>
+                        <input type="text">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Route<span style="color:red">*</span></label>
+                    </td>
+                    <td>
+                        <select>
+                            <option>--select--</option>
+                            <option>Uppal to koti</option>
+                            <option>Ramanthapur to secundrabad</option>
+                            <option>boduppal to uppal</option>
+                        </select>
+                    </td>
+                </tr>
+
+            </table>
+
+            </fieldset>
+            <br>
+
+            <fieldset style="width: 800px; border-radius: 10px ; border:1px solid black;">
+                <legend style="border-radius: 5px; background-color:blue; color:white"><b>Mode of Payment & Pass
+                        Collection</b> </legend>
+                </legend>
+
+                <table cellpadding="10" width="800">
+                    <tr>
+                        <td>
+                            <label>Payment<span style="color:red">*</span></label>
+                        </td>
+                        <td>
+                            <select style="width:35%;">
+                                <option>Select payment mode</option>
+                                <option>Payment at counter</option>
+
+                            </select>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Pass Delivery Mode<span style="color:red">*</span></label>
+                        </td>
+                        <td>
+                            <select style="width:45%;">
+                                <option>Select pass delivery mode</option>
+                                <option>At counter</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Center at which <br>you collect <br>passes<span style="color:red">*</span></label>
+                        </td>
+                        <td>
+                            <select style="width:80%;">
+                                <option disablesd select>--select--</option>
+                                <option>rtc abids -- hyd [ 23/01/2026 ]</option>
+                                <option>rtc afzalgunj -- hyd [ 23/01/2026 ]</option>
+                                <option>rtc airport -- hyd [ 22/01/2026 ]</option>
+                                <option>rtc aramghar -- hyd [ 23/01/2026 ]</option>
+                                <option>rtc bala nagar -- hyd [ 23/01/2026 ]</option>
+                                <option>rtc borabanda -- hyd [ 23/01/2026 ]</option>
+                                <option>rtc cbs -- hyd [ 23/01/2026 ]</option>
+                                <option>rtc charminar -- hyd [ 23/01/2026 ]</option>
+                                <option>rtc dilsukhnagar -- hyd [ 23/01/2026 ]</option>
+                                <option>rtc ecil -- hyd [ 23/01/2026 ]</option>
+                                <option>rtc farooqnagar -- hyd [ 23/01/2026 ]</option>
+                                <option>rtc ghatkesar -- hyd [ 23/01/2026 ]</option>
+                                <option>rtc hayathnagar -- hyd [ 23/01/2026 ]</option>
+                                <option>rtc ibrahimpatnam -- hyd [ 23/01/2026 ]</option>
+                                <option>rtc jbs -- hyd [ 23/01/2026 ]</option>
+                                <option>rtc kachiguda -- hyd [ 23/01/2026 ]</option>
+                                <option>rtc koti -- hyd [ 23/01/2026 ]</option>
+                                <option>rtc kphb -- hyd [ 23/01/2026 ]</option>
+                                <option>rtc kukatpally -- hyd [ 23/01/2026 ]</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                </form>
+            </fieldset>
+            <br>
+            <img src="./images/Screenshot 2026-01-23 174933.png" width="200"><br>
+            <input type="text"><br><br>
+            <button style="background-color:pink">Submit</button>
+    </center>
+</body>
+
+</html>
